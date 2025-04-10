@@ -1,1 +1,52 @@
-https://drive.google.com/file/d/1ck13tIfVBHVaD5w9xnBYX1JVKnoErRdq/view?usp=sharing
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sean Eds 124BR Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      font-size: 1.2em;
+    }
+    .video-section {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    iframe {
+      width: 560px;
+      height: 315px;
+      max-width: 90%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sean Eds 124BR Portfolio</h1>
+  <p>This is an education portfolio.</p>
+
+  <div class="video-section">
+    <h2>Video 1</h2>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+
+    <h2>Video 2</h2>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+
+    <!-- Add more videos below as needed -->
+  </div>
+
+</body>
+</html>
